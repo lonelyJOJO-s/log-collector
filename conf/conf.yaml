@@ -1,0 +1,12 @@
+app: log
+version: v0.1
+center:
+  address: 124.221.101.169:80
+kafka:
+  address: localhost:9092
+  topic: web_log
+  chan_max_size: 100000
+etcd:
+  address: localhost:2379
+  timeout: 5
+  collect_log_key: /logv1/collect
